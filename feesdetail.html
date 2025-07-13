@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fees Details</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+   body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+}
+
+header {
+  background-color:#2c3e50; 
+  padding: 6px;
+  position: relative;
+}
+
+.home-button {
+  color: #f39c12;
+  text-decoration: none;
+  font-weight: bold;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: color 0.3s ease;
+}
+
+.home-button:hover {
+  color: #f1c40f;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+.fees-container {
+  max-width: 1000px;
+  margin: 150px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.fees-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #2c3e50;
+}
+
+.fees-table thead {
+  background: linear-gradient(to right, #34495e, #2c3e50);
+  color: white;
+}
+
+.fees-table th, .fees-table td {
+  padding: 15px 22px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  font-size: 16px;
+}
+
+.fees-table tbody tr {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.fees-table tbody tr:hover {
+  background-color: #16a085;
+  color: white;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background-color:#2c3e50; 
+  color: #ecf0f1;
+  padding: 16px 0;
+  font-size: 15px;
+ justify-content: center;
+  align-items: center;
+  letter-spacing: 0.5px;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="login1.html" class="home-button">
+      <i class="fa-solid fa-house"></i> Go To Home
+    </a>
+    <h1>Student Portal - Fees Details</h1>
+  </header>
+
+  <main>
+    <div class="fees-container">
+      <table class="fees-table">
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Semester</th>
+            <th>Tuition Fees</th>
+            <th>Exam Fees</th>
+            <th>Total Fees</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Computer Science & Engineering</td>
+            <td>1st</td>
+            <td>₹1,48,000</td>
+            <td>₹7,000</td>
+            <td>₹1,55,000</td>
+          </tr>
+          <tr>
+            <td>Computer Engineering</td>
+            <td>1st</td>
+            <td>₹1,40,000</td>
+            <td>₹7,000</td>
+            <td>₹1,47,000</td>
+          </tr>
+          <tr>
+            <td>Information Technology</td>
+            <td>1st</td>
+            <td>₹1,25,000</td>
+            <td>₹7,000</td>
+            <td>₹1,32,000</td>
+          </tr>
+          <tr>
+            <td>AI & Machine Learning</td>
+            <td>1st</td>
+            <td>₹98,000</td>
+            <td>₹7,000</td>
+            <td>₹1,05,000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Student Portal | Science & Technology. All Rights Reserved
+  </footer>
+
+</body>
+</html>

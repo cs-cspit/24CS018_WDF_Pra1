@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Timetable</title>
+   <link rel="Stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    .timetable-section {
+      margin: 150px auto;
+      width: 90%;
+      max-width: 1000px;
+      background-color: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow:0 0 15px #2c3e50;
+    }
+
+    .timetable-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+
+    .timetable-table th, .timetable-table td {
+      padding: 12px;
+      border: 1px solid #ddd;
+    }
+
+    .timetable-table thead {
+      background-color: #34495e;
+      color: white;
+    }
+
+    .timetable-table tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+    <header>
+  <div class="navbar" style="background-color: #2c3e50; padding: 20px; position: relative;">
+    <a href="login1.html" class="home-button" style="color: #f1c40f; text-decoration: none; font-weight: bold; position: absolute; left: 20px; top: 50%; transform: translateY(-50%);">
+      <i class="fa-solid fa-house"></i> Go To Home
+    </a>
+    <h1 style="color: white; text-align: center; font-size: 24px;">Student Portal - Timetable</h1>
+  </div>
+</header>
+  <main>
+    <section class="timetable-section">
+      <table class="timetable-table">
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>9:00–10:00</th>
+            <th>10:00–11:00</th>
+            <th>11:00–12:00</th>
+            <th>12:00–1:00</th>
+            <th>2:00–3:00</th>
+            <th>3:00–4:00</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>Maths</td>
+            <td>OOPS</td>
+            <td>Break</td>
+            <td>CN</td>
+            <td>DSA Lab</td>
+            <td>DSA Lab</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>OOPS</td>
+            <td>CN</td>
+            <td>Break</td>
+            <td>DSA</td>
+            <td>OOPS Lab</td>
+            <td>OOPS Lab</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Maths</td>
+            <td>CN</td>
+            <td>Break</td>
+            <td>DSA</td>
+            <td>Sports</td>
+            <td>Sports</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>DSA</td>
+            <td>CN</td>
+            <td>Break</td>
+            <td>OOPS</td>
+            <td>CN Lab</td>
+            <td>CN Lab</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Maths</td>
+            <td>OOPS</td>
+            <td>Break</td>
+            <td>Seminar</td>
+            <td>Project</td>
+            <td>Project</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <div class="copyright">
+     © 2025 Student Portal | Science & Technology. All Rights Reserved
+    </div>
+  </footer>
+
+</body>
+</html>

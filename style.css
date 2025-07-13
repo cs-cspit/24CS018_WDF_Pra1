@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+   background: linear-gradient(135deg, #8ec5fc, #e0c3fc);
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #2c3e50;
+    padding: 15px 0;
+   text-align: left;
+}
+.navbar h1{
+    color: white;
+}
+
+/* Link styling */
+.link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.link:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
+
+/* Dropdown styling */
+.StudentCourse {
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 15px;
+}
+
+/* Footer styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* style.css */
+
+.backimg {
+  height: auto;
+  min-height: 550px;
+  background-image: url("backgroundimage.jpg");
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.backimg img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain; 
+}
+
+section {
+  max-width: 550px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgb(0 0 0 / 0.1);
+}
+
+
+#loginbutton {
+    width: 150px;
+    margin-top: 400px;
+    padding: 10px 10px;
+    background-color:  #2c3e50; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#loginbutton a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#loginbutton:hover {
+    background-color: #3458c1;
+}
+
+.input {
+    background-color:#34495e;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 200px rgba(246, 239, 239, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+}
+.input input {
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.input input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+.input :hover {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+    transition: 0.3s ease;
+    transform: scale(1.08);
+}
+
+.loginh{
+    background-color:#9cb0ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginbutton{
+    margin-top: 20px;
+    background-color:  #6598cb;
+    padding: 10px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.home-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: #2c3e50;
+    color: #f1c40f;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button i {
+    margin-right: 8px;
+}
+
+.home-button:hover {
+    background-color: #1abc9c;
+}
+
+.loginheading{
+    color: #6598cb;
+    text-align: center;
+    margin-bottom: 15px;
+}
